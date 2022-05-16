@@ -42,7 +42,7 @@ export const useFetch = (url: string) => {
 };
 
 export const useFetchList = (url: string) => {
-	const [data, setData] = useState<Character[]>([]);
+	const [data, setData] = useState<Character[] | Episode[]>([]);
 	const [error, setError] = useState<Error | null>(null);
 	const [loading, setLoading] = useState<Boolean | null>(null);
 
@@ -51,7 +51,7 @@ export const useFetchList = (url: string) => {
 			try {
 				setLoading(true);
 				if (url) {
-					const characterResponse = await httpClient.get<Character[]>(url);
+					const characterResponse = await httpClient.get<Character[] | Episode[]>(url);
 					let charList = characterResponse.data;
 					setData(charList);
 				}

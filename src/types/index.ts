@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import { Character } from '../interfaces/Character';
 import { Episode } from '../interfaces/Episode';
 import { Info } from '../interfaces/Response';
@@ -29,4 +30,10 @@ export type ContextObject = {
 export type Option = {
 	id: number;
 	name: string;
+};
+
+export type ModalProps = {
+	children: ReactNode;
+	isOpen: boolean;
+	onClose: () => void;
 };
