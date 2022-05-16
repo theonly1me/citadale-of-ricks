@@ -1,0 +1,40 @@
+@import '../../variables.css';
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin: 1rem 0;
+}
+
+.button {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 200px;
+	border: none;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 700;
+	background-color: var(--primary-dark);
+	text-align: center;
+	box-shadow: 0 0.2rem 1rem 0.001rem #55c57a93;
+	transition: all 0.2s;
+}
+
+.first,
+.last {
+	font-size: 1.6rem;
+	font-weight: 400;
+
+	width: 5rem;
+	height: 3rem;
+}
+
+.button:hover {
+	transform: translateY(-3px);
+}
+
+.button:active {
+	transform: translateY(1px);
+}

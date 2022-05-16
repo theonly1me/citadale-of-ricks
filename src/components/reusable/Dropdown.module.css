@@ -1,0 +1,41 @@
+@import '../../variables.css';
+
+.select {
+	width: 95%;
+	height: 3rem;
+	overflow: scroll;
+	appearance: none;
+	background-color: transparent;
+	border: none;
+	padding: 0 1em 0 0;
+	margin: 5rem 0;
+	font-family: inherit;
+	font-size: inherit;
+	box-shadow: var(--shadow-dark);
+	cursor: inherit;
+	line-height: inherit;
+	outline: none;
+}
+
+.select:focus {
+	outline: none;
+	background-color: var(--grey-light-3);
+}
+
+.select {
+	color: var(--grey-dark-2);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 2rem;
+	padding: 0.25rem 1rem;
+	font-size: 1.2rem;
+	cursor: pointer;
+	line-height: 1.1;
+	background-color: #fff;
+	align-items: center;
+	font-weight: 100;
+	background-color: var(--grey-light-2);
+}
+
+.select::-ms-expand {
+	display: none;
+}

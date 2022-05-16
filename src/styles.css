@@ -1,0 +1,31 @@
+/*Global resets & defaults*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	/*1rem = 10px*/
+	font-size: 62.5%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	color: var(--grey-dark-2);
+	/* background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.7), rgba(40, 180, 133, 0.8)); */
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	/* 0 2rem 0 2rem; */
+	min-height: 100vh;
+}
