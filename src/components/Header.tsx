@@ -19,7 +19,7 @@ const Header: React.FC = () => {
 				<img src={headerImg} className={classes.image} alt="header logo" />
 				<img src={portal} className={classes.portal} alt="header logo" />
 			</div>
-			<Button buttonText="Enter" classes={classes} />
+			<Button test-id="btn-enter" buttonText="Enter" classes={classes} />
 		</header>
 	);
 };

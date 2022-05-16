@@ -4,18 +4,13 @@
 	position: relative;
 	flex-direction: row;
 	min-height: 100vh;
+	padding-bottom: 5rem;
 }
 
 /* media queries */
 
-@media (max-width: 768px) {
+@media (max-width: 1130px) {
 	.content {
 		flex-direction: column;
 	}
 }
-
-/* // 320px — 480px: Mobile devices
-// 481px — 768px: iPads, Tablets
-// 769px — 1024px: Small screens, laptops
-// 1025px — 1200px: Desktops, large screens
-// 1201px and more —  Extra large screens, TV */
