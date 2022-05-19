@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // types
-import { ModalProps } from '../../types';
+import { ModalProps } from '../types';
 // styles
 import classes from './Modal.module.css';
 

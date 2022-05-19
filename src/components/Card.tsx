@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 //types
-import { Character } from '../../interfaces/Character';
+import { Character } from '../interfaces/Character';
 
 //styles
 import classes from './Card.module.css';
